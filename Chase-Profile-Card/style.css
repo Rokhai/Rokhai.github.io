@@ -1,0 +1,88 @@
+body {
+    background-color: #333;
+    margin-top: 10%;
+}
+
+.card {
+    /* background: url(bg.png); */
+    height: auto;
+    width: 20rem;
+    max-width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.45); */
+    border-radius: 10px;
+}
+
+.card-left {
+    height: auto;
+    width: 20rem;
+    max-width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    /* float: left; */
+    /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.45); */
+    border-radius: 10px;
+  
+    transform: translateX(300px);
+    transition-duration: 1s;
+}
+
+.card-right {
+    height: auto;
+    width: 20rem;
+    max-width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    /* float: left; */
+    /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.45); */
+    border-radius: 10px;
+  
+    transform: translateX(-300px);
+    transition-duration: 1s;
+}
+
+
+
+.card-profile-image {
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 16px;
+}
+
+.card-profile-image>img{
+    position: relative;
+    height: 150px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 150px;
+    border-radius: 100px;
+    box-shadow: 0 25px 2rem rgba(0, 0, 0, 0.15);
+}
+
+.card-content {
+    padding: 16px;
+    text-align: center;
+}
+
+.card-content>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.card-content>span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6rem;
+    font-weight: 900;
+    color: #777;
+    text-transform: uppercase;
+}
+
+.card-content>p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.4    );
+}
